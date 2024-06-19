@@ -14,7 +14,7 @@ export class albumDataService {
 
   constructor(private http: HttpClient) { }
 
-  // Example GET request
+  // Album GET request
   getData(): Observable<any> {
     return this.http.get<any>(`${this.apiUrl}`);
   }
