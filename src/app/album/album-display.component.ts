@@ -4,9 +4,8 @@ import { albumDataService } from './album-dataservice';
 
 @Component({
   selector: 'album-display',
-  templateUrl: './album-display.component.html'
-  //,
-  //styleUrls: ['./data-display.component.css']
+  templateUrl: './album-display.component.html',
+  styleUrls: ['./album-display.css']
 })
 export class AlbumDisplayComponent implements OnInit {
 
