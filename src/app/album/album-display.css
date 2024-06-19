@@ -1,0 +1,38 @@
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+mat-card-image 
+{
+  width: 200px;
+}
+.albums mat-card {
+  width: 20px;
+  cursor: pointer;
+}
+
+.photos {
+  margin-top: 16px;
+}
+
+.photo {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin: 8px;
+}
+
+.photo img {
+  max-width: 100%;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
